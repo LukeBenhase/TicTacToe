@@ -1,1 +1,27 @@
+/* center everthing */
+.body {
+    display: grid;
+    justify-content: center;
+}
+
+p {
+    text-align: center;
+}
+
+#gameBoard {
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 5px;
+}
+
+/* make the buttons expand to the sixe of the grid */
+button {
+    background-color: rgb(236, 236, 236);
+    padding: 20px;
+    min-width: 60px;
+    min-height: 60px;
+}
 
